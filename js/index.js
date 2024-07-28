@@ -6,7 +6,7 @@ let tienePrestamo
 
 while (prestamoPregunta != "Si" && prestamoPregunta != "No"){
 
-    prestamoPregunta = prompt("Tiene usted un préstamo pendiente con nosotros? (Responda Si/No")
+    prestamoPregunta = prompt("Tiene usted un préstamo pendiente con nosotros? (Responda Si/No)")
 
     switch(prestamoPregunta){
         case "Si":
